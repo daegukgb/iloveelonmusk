@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 #include <windows.h>
 #include <thread>
-#incude "connectServer.h"
+#incude "ConnectServer.h"
 
 using namespace std;
 
