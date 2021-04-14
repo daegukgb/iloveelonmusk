@@ -30,7 +30,7 @@ int main() {
 	cout << "준비중\n";
 	
 	
-	thread sock(&connecting);
+	thread sock(&getConnecting);
 	sock.join();
 
 	
