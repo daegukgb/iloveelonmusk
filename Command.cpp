@@ -1,4 +1,4 @@
-#include <bits/stdc++.h>
+#include <iostream>
 #include <string>
 #include <Windows.h>
 
@@ -11,6 +11,7 @@ constexpr unsigned int HC(const char* str)
 }
 
 void executeCommand(string name, char* args[], int len) {
+	/*
 	switch (HC(name.c_str())) {
 	case HC("도움말"):
 		helpCommand(); 
@@ -27,6 +28,7 @@ void executeCommand(string name, char* args[], int len) {
 		cout << "알 수 없는 명령어 입니다. \"도움말\"를 입력하여 커맨드를 확인하세요" << endl;
 		break;
 	}
+	*/
 }
 void findCommands(string command) {
 	char temp[1000];
